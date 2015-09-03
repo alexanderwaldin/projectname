@@ -8,7 +8,6 @@ setup(name='projectname',
       license='MIT',
       packages=['projectname', 'projectname.subpackageone'],
       # or packages=find_packages(exclude=["*.tests"])
-      package_data={'subpackageone':['models/model1']},
       include_package_data=True,
       test_suite='nose.collector',
       tests_require=['nose'],

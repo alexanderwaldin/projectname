@@ -1,2 +1,4 @@
 *.pyc
-projectname_env
+projectname_env/
+projectname.egg-info/
+dist/
