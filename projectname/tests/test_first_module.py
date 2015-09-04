@@ -1,5 +1,5 @@
 import unittest
-from projectname import second_module
+from projectname import first_module
 
 class TestSecondModule(unittest.TestCase):
     '''Test class'''
@@ -16,7 +16,7 @@ class TestSecondModule(unittest.TestCase):
     def test_read_data(self):
         '''tests read_data'''
         expected = "Hello World!"
-        actual = second_module.read_model()
+        actual = first_module.read_model()
         self.assertEqual(expected, actual)
 
 
